@@ -1,0 +1,31 @@
+{
+  "name": "qaiserlab",
+  "version": "1.0.0",
+  "description": "QaiserLab Official Website",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/qaiserlab/qaiserlab-com.git"
+  },
+  "author": "Fadlun Anaturdasa",
+  "bugs": {
+    "url": "https://gitlab.com/qaiserlab/qaiserlab-com/issues"
+  },
+  "homepage": "https://gitlab.com/qaiserlab/qaiserlab-com#README",
+  "dependencies": {
+    "animate.css": "^3.6.1",
+    "bootstrap3": "^3.3.5",
+    "datatables.net": "^1.10.16",
+    "datatables.net-bs": "^1.10.16",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "jssocials": "^1.5.0",
+    "lightbox2": "^2.10.0",
+    "slick-carousel": "^1.8.1",
+    "tinymce": "^4.7.13",
+    "vue": "^2.5.16"
+  }
+}

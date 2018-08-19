@@ -1,0 +1,249 @@
+// out: ./site.min.css, sourcemap: true, compress: true
+
+@import url('./variable.less');
+// Global
+
+body {
+  font-family: @font-primary;
+}
+
+.reset-space {
+  margin: 0;
+  padding: 0;
+}
+
+.form-group {
+  position: relative;
+  .input-icon {
+    color: @color-black;
+    position: absolute;
+    right: 9px;
+    top: 9px;
+  }
+}
+
+.panel {
+  .panel-heading {
+    padding: 0;
+    border-left: inset @color-black 4px;
+    border-bottom: inset @color-black 4px;
+
+    .panel-title {
+      color: @color-white;
+      background: @color-black;
+      display: inline-block;
+      padding: 8px;
+      font-family: @font-extra;
+    }
+  }
+
+  .panel-body {
+    border: solid lighten(@color-black, 60%) 1px;
+  }
+}
+
+.ui-button .btn-primary {
+  background: @color-black;
+  border: solid lighten(@color-black, 10%) 2px;
+
+  &:hover {
+    background: lighten(@color-black, 5%);
+  }
+}
+
+.product-box {
+  position: relative;
+  border: solid @color-silver 1px;
+  text-align: center;
+  height: 200px;
+  box-shadow: 4px 4px 4px @color-silver;
+
+  h4 {
+    color: @color-black;
+    margin: 0;
+  }
+
+  b {
+    color: @color-primary;
+  }
+
+  span {
+    position: absolute;
+    right: 2px;
+    bottom: 2px;
+    background: @color-silver;
+    padding: 4px;
+    font-size: 11px;
+
+    a {
+      color: @color-black;
+    }
+  }
+}
+
+.slick-arrow {
+
+  background: lighten(@color-black, 20%);
+  box-shadow: lighten(@color-black, 60%) 2px 2px 2px;
+  font-size: 32px;
+  border-radius: 32px;
+
+  &:hover {
+    background: @color-black;
+  }
+}
+
+#header-home {
+  height: 320px;
+  margin-bottom: 32px;
+  background: url(../images/cropped-vim-demo.png);
+  background-size: cover;
+  position: relative;
+
+  .overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: darken(@color-black, 10%);
+    opacity: 0.8;
+  }
+
+  .container {
+    position: relative;
+    height: 100%;
+
+    .logo {
+      display: inline-block;
+      margin-top: 100px;
+      color: @color-white;
+      font-family: @font-extra;
+
+      &:hover {
+        opacity: 0.8;
+        text-decoration: none;
+      }
+
+      h1 {
+        .reset-space;
+        font-weight: bolder;
+      }
+
+      h2 {
+        .reset-space;
+        font-size: 22px;
+        color: darken(@color-white, 30%);
+      }
+    }
+
+    .navbar {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      color: @color-white;
+      background: @color-primary;
+      border: none;
+
+      a {
+        color: @color-white;
+
+        &:hover {
+          background: lighten(@color-primary, 5%);
+        }
+      }
+
+      .active {
+        a {
+          background: darken(@color-primary, 5%);
+        }
+      }
+
+      .dropdown.open {
+        background: @color-primary;
+
+        .dropdown-menu {
+          background-color: inherit;
+        }
+      }
+    }
+  }
+
+}
+
+#header {
+  margin-top: 96px;
+
+  .container {
+
+    .navbar {
+      position: fixed;
+      left: 0;
+      top: 0;
+      z-index: 10;
+      width: 100%;
+      color: @color-white;
+      background: @color-primary;
+      border: none;
+      border-radius: 0;
+
+      a {
+        color: @color-white;
+
+        &:hover {
+          background: lighten(@color-primary, 5%);
+        }
+      }
+
+      .active {
+        a {
+          background: darken(@color-primary, 5%);
+        }
+      }
+
+      .dropdown.open {
+        background: @color-primary;
+
+        .dropdown-menu {
+          background-color: inherit;
+        }
+      }
+    }
+  }
+
+}
+
+#footer {
+  background: @color-black;
+  color: @color-white;
+  margin-top: 16px;
+  padding-top: 32px;
+  padding-bottom: 96px;
+
+  #share {
+    position: fixed;
+    left: 0;
+    top: 50%;
+
+    .jssocials-share {
+      display: block;
+      margin: 0;
+      font-size: 24px;
+    }
+  }
+}
+
+#ProductSingleView {
+  position: relative;
+
+  .price {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: @color-primary;
+    border: solid @color-silver 1px;
+    padding: 16px;
+    font-size: 22px;
+  }
+}

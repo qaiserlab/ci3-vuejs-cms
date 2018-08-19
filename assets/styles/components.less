@@ -1,0 +1,135 @@
+// out: ./components.min.css, sourcemap: true, compress: true
+
+#lte {
+  form {
+    label {
+      margin-top: 4px;
+      display: block;
+    }
+  }
+}
+
+.ui-textbox {
+
+  input {
+    height: auto;
+  }
+
+  .icon {
+    position: absolute;
+    right: 8px;
+    top: 6px;
+  }
+}
+
+.ui-datepicker {
+
+  select {
+    display: inline-block;
+    width: auto;
+  }
+}
+
+.ui-image {
+  position: relative;
+
+  img {
+    width: 100%;
+  }
+
+  input {
+    height: auto;
+  }
+
+  .icon {
+    position: absolute;
+    right: 8px;
+    bottom: 8px;
+  }
+}
+
+.ui-media {
+  position: relative;
+  z-index: 1000000000;
+
+  .placeholder {
+    position: absolute;
+    right: 0;
+    top: 8px;
+    font-style: italic;
+  }
+
+  img {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+
+  small {
+    word-wrap: break-word;
+  }
+
+  .upload-bar {
+    padding: 8px;
+    position: absolute;
+    left: 0;
+    top: 50px;
+    width: calc(100% - 5px);
+    z-index: 1;
+    background: #fff;
+
+    input {
+      display: block;
+      border: solid silver 1px;
+      padding: 8px;
+      width: 100%;
+      margin-bottom: 8px;
+    }
+
+    div {
+      position: relative;
+
+      i {
+        position: absolute;
+        right: 12px;
+        top: 12px;
+      }
+    }
+  }
+
+  .modal-body {
+    height: 400px;
+    overflow: auto;
+    padding-top: 100px;
+
+    .thumbnail {
+      figure {
+        position: relative;
+        height: 80px;
+        @media (max-width: 400px) {
+          height: 180px;
+        }
+
+        &.modal-figure {
+          height: 80px;
+          @media (max-width: 400px) {
+            height: 180px;
+          }
+        }
+
+        span {
+          color: white;
+          background: black;
+          opacity: 0.6;
+          position: absolute;
+          left: 0;
+          bottom: 0px;
+          width: 100%;
+          display: block;
+          font-size: 10px;
+          padding: 2px;
+        }
+      }
+    }
+
+  }
+}

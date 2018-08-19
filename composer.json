@@ -1,0 +1,14 @@
+{
+    "name": "qaiserlab/website",
+    "description": "QaiserLab Official Website",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Fadlun Anaturdasa",
+            "email": "f.anaturdasa@qaiserlab.com"
+        }
+    ],
+    "require": {
+        "chriskacerguis/codeigniter-restserver": "^3.0"
+    }
+}
