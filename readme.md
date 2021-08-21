@@ -10,3 +10,6 @@ This version of the product is no longer maintained, development continues to th
 ```
 https://github.com/qaiserlab/ci4-vuejs-cms
 ```
+
+# QaiserLab New Version
+https://github.com/qaiserlab/ci4-vuejs-cms
