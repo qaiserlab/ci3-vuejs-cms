@@ -1,5 +1,5 @@
 # QaiserLab
-# Code Igniter 3 + VueJS CMS
+# Code Igniter 3 & VueJS CMS
 
 Just a simple blog with a simple CMS, mainly made with Code Igniter 3 & VueJS.
 
